@@ -37,9 +37,8 @@ The data cleaning and modeling process using Power Query began with importing ra
 
 Each column was reviewed to ensure the correct data types were assigned preventing errors during analysis. Duplicate records were identified and removed to maintain accuracy. The data was then transformed, including normalizing metrics to enable fair comparisons across agents and time periods. Columns were split where needed, such as extracting the hour from a timestamp to analyze call patterns. In some cases, data sources were merged based on common keys, such as agent names or call IDs, to create a comprehensive dataset for analysis.
 
-Once cleaned, the next step involved data modeling. Key relationships were created between the main fact tables, such as call logs and satisfaction ratings, and dimension tables like agent details and call times. These relationships, including "one-to-many" and "many-to-many" structures, ensured the data model reflected real-world hierarchies. Custom calculated columns and DAX measures were created for important metrics like average call duration per agent and total satisfaction score. This made the model dynamic, allowing for on-the-fly calculations in Power BI. 
+Once cleaned, the next step involved data modeling. Key relationships were created between the main fact tables and dimension tables. These relationships, including "one-to-many" and "many-to-many" structures, ensured the data model reflected real-world hierarchies. Custom calculated columns and DAX measures were created for important metrics like average call duration per agent and total satisfaction score. This made the model dynamic, allowing for on-the-fly calculations in Power BI. 
 
-Time intelligence was incorporated to analyze trends, such as peak call hours and month-over-month performance, by creating and linking a date table. To further optimize the model, unused columns were removed to reduce its size, improving performance in Power BI. Hierarchies were also established, making it easier to explore data and enable drill-down capabilities in the reports. This structured approach ensured the dataset was clean, well-organized, and ready for insightful analysis.
 ### Analysis of Churn Insights:
 
 1. **Churn vs Retention Rate**:
@@ -118,5 +117,3 @@ Time intelligence was incorporated to analyze trends, such as peak call hours an
 
 5. **Retention Programs for Customers Without Dependents**:
    Since individuals without dependents are more likely to churn, tailor specific retention programs (e.g., personalized offers, product bundles) targeting single individuals or smaller households.
-
-By implementing these strategies, the company can address key drivers of churn and improve both customer retention and overall financial performance.
