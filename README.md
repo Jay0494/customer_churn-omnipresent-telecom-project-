@@ -1,7 +1,8 @@
 # customer_churn-omnipresent-telecom-project-
 
+![Screenshot_20240919-011804_Drive](https://github.com/user-attachments/assets/34212bf2-cb67-4178-8330-c809ee71bb3b)
 
-![Screenshot_20240918-233534_Drive](https://github.com/user-attachments/assets/e3ab4a60-a29f-4f5a-be71-141aefcad773)
+
 
 ### Analysis of Churn Insights:
 
