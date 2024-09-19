@@ -32,12 +32,12 @@ The primary objective of this project is to identify key drivers of customer chu
 - PowerBi
 - Power Query
 
+## **Data Source**
+https://www.theforage.com/virtual-experience/a87GpgE6tiku7q3gu/pw-c-switzerland/power-bi-cqxg/customer-retention
+
 ## **Data Processing**
-The data cleaning and modeling process using Power Query began with importing raw data From the Excel database. The first step was to clean the data by removing unnecessary columns that did not contribute to the analysis, streamlining the dataset for easier management. Missing data, such as null values, were handled by filling them with averages values.  
-
-Each column was reviewed to ensure the correct data types were assigned preventing errors during analysis. Duplicate records were identified and removed to maintain accuracy. The data was then transformed, including normalizing metrics to enable fair comparisons across agents and time periods. Columns were split where needed, such as extracting the hour from a timestamp to analyze call patterns. In some cases, data sources were merged based on common keys, such as agent names or call IDs, to create a comprehensive dataset for analysis.
-
-Once cleaned, the next step involved data modeling. Key relationships were created between the main fact tables and dimension tables. These relationships, including "one-to-many" and "many-to-many" structures, ensured the data model reflected real-world hierarchies. Custom calculated columns and DAX measures were created for important metrics like average call duration per agent and total satisfaction score. This made the model dynamic, allowing for on-the-fly calculations in Power BI. 
+I removed columns by eliminating irrelevant or redundant ones to reduce the dataset size and focus on only the necessary data. I replaced null values by addressing missing data with appropriate values, such as the mean, median, or a default value, to ensure consistency and avoid errors in analysis. I also cleaned up textual data by removing unwanted characters or symbols to maintain accuracy in string-based fields, such as removing special characters and extra spaces.
+Next, I standardized the data by converting it into a consistent format, ensuring uniformity in elements like date formats, capitalization, and currency units. Finally, I split the data into fact and dimension tables, organizing it to improve structure and performance for future analysis, with fact tables containing transactional data and dimension tables holding descriptive attributes.
 
 ### Analysis of Churn Insights:
 
