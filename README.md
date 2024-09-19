@@ -1,4 +1,29 @@
 # customer_churn-omnipresent-telecom-project-
+### Project Background: Churn and Retention Analysis
+
+**Project Title**: Customer Churn and Retention Improvement Initiative
+
+**Client Context**:
+The client operates in the telecommunications sector, offering a variety of internet, phone, and related services. Despite having a broad customer base, the company is experiencing a customer churn rate of **26.54%**, meaning that over a quarter of their customers are leaving each year. This is a critical issue as it directly impacts their financial performance, with **$2.86 million in revenue lost annually** due to customer attrition. Additionally, certain segments of the customer base, such as those on month-to-month contracts and those paying via electronic checks, are showing significantly higher churn rates.
+
+The company’s executive team has identified customer retention as a strategic priority, and the **retention manager** is tasked with developing data-driven strategies to reduce churn, improve customer loyalty, and minimize revenue loss. This project aims to support the retention team with an in-depth analysis of customer churn, establish KPIs for ongoing monitoring, and provide actionable insights for intervention.
+
+**Objective**:
+The primary objective of this project is to identify key drivers of customer churn, provide insights into customer retention trends, and recommend actionable strategies to improve retention and reduce churn. This will be achieved by analyzing customer behavior patterns, contract types, payment methods, and service-related issues. The final output will include a set of key performance indicators (KPIs) for the retention manager and a dashboard to track these metrics over time.
+
+**Current Challenges**:
+1. **High Churn Rate**: The company's churn rate of **26.54%** is considerably higher than industry benchmarks. Month-to-month contract customers and those using certain payment methods (e.g., electronic check) are the most likely to churn.
+2. **Revenue Impact**: Churn is leading to substantial revenue loss, with **$2.86 million** in annual revenue lost from churned customers.
+3. **Customer Satisfaction Issues**: There are a large number of administrative support tickets (3,632) compared to technical support tickets (2,955), indicating that issues related to billing, contracts, or customer service may be contributing to customer dissatisfaction.
+4. **Service-Specific Churn**: Despite being a superior technology, **fiber optic customers** are leaving at a higher rate (41.89%) compared to DSL users, pointing to potential pricing, service quality, or customer experience issues.
+
+**Scope of Work**:
+- **Data Analysis**: Conduct a detailed analysis of the company's customer churn data to identify the main drivers of attrition. This will include segmentation by contract type, payment method, internet service type, and customer demographics.
+- **KPI Development**: Establish key performance indicators (KPIs) that will allow the retention manager to monitor customer behavior trends, identify at-risk customer segments, and measure the effectiveness of retention strategies.
+- **Dashboard Creation**: Design a user-friendly dashboard that will provide real-time insights into churn metrics, enabling the retention team to track performance, identify trends, and act proactively.
+- **Recommendations**: Based on the data analysis, develop strategic recommendations to reduce churn, including contract optimization, payment method interventions, and improvements in customer service and experience.
+
+
 
 ![Screenshot_20240919-011804_Drive](https://github.com/user-attachments/assets/34212bf2-cb67-4178-8330-c809ee71bb3b)
 
