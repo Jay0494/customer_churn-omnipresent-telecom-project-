@@ -32,7 +32,7 @@ The primary objective of this project is to identify key drivers of customer chu
 - PowerBi
 - Power Query
 
-## ** Data Processing**
+## **Data Processing**
 The data cleaning and modeling process using Power Query began with importing raw data From the Excel database. The first step was to clean the data by removing unnecessary columns that did not contribute to the analysis, streamlining the dataset for easier management. Missing data, such as null values, were handled by filling them with averages values.  
 
 Each column was reviewed to ensure the correct data types were assigned preventing errors during analysis. Duplicate records were identified and removed to maintain accuracy. The data was then transformed, including normalizing metrics to enable fair comparisons across agents and time periods. Columns were split where needed, such as extracting the hour from a timestamp to analyze call patterns. In some cases, data sources were merged based on common keys, such as agent names or call IDs, to create a comprehensive dataset for analysis.
